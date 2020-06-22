@@ -1,0 +1,173 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #afb1b8;
+  --active-blue-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logoblue {
+  color: var(--active-blue-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-blue-color);
+}
+
+.top-btn:hover,
+.top-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+.nav-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.title-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: var(--active-blue-color);
+}
+
+.advantage {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantage-p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: var(--secondary-text-color);
+}
+
+.first-section-btn {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-profession-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-title,
+.whatwedo-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.partners:hover,
+.partners:focus {
+  color: var(--active-blue-color);
+}
+
+.studio-contacts:hover,
+.studio-contacts:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+.join-link {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.secondary-card-text {
+  color: var(--secondary-text-color);
+}
+
+.footer-adress,
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-contacts {
+  color: var(--secondary-text-color);
+}
+
+.footer-connect-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer-join-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.inside-card-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
